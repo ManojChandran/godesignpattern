@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// A single function (Factory Method) returns different object types based on input parameters.
 // Step 1: Define an interface
 type Notification interface {
 	SendNotification()
