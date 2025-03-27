@@ -12,13 +12,13 @@ type Notification interface {
 type EmailNotification struct{}
 
 func (e *EmailNotification) SendNotification() {
-	fmt.Println("Send email notification")
+	fmt.Println("Sending email Notification")
 }
 
 type SMSNotification struct{}
 
 func (s *SMSNotification) SendNotification() {
-	fmt.Println("Send SMS notofocation")
+	fmt.Println("Sending SMS Notifocation")
 }
 
 // Step 3: Define Factory interface
